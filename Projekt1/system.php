@@ -46,7 +46,7 @@ document.createElement("aside");
 <section>
 	<?php
 	$version = phpversion();
-	print("<p>Detta läses från $_SERVER-arean</p>");
+	print("<p>Detta läses från \$_SERVER-arean</p>");
 	print("<p>Ägaren är: ".$_SERVER["SSL_SERVER_S_DN_O"]."<br/>");
 	print("<p>remote user: ".$_SERVER["REMOTE_USER"]."<br/>");
 	print("<p>remote ip: ".$_SERVER["REMOTE_ADDR"]."<br/>");
