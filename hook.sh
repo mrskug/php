@@ -1,3 +1,3 @@
 #!/bin/bash
-cd ~/html/php/
+cd /home/h/holmberc/html/php/
 git pull
