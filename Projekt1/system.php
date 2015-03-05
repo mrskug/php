@@ -51,7 +51,7 @@ document.createElement("aside");
 	print("<p>remote ip: ".$_SERVER["REMOTE_ADDR"]."<br/>");
 	print("<p>server ip: ".$_SERVER["SERVER_ADDR"]."<br/>");
 	print("<p>server software: ".$_SERVER["SERVER_SOFTWARE"]."<br/>");
-	print("<p>php version: ".$_SERVER["PHP_VERSION"]."<br/>");
+	print("<p>php version: " phpversion() "<br/>");
 	?>
 <section>
 </section>
