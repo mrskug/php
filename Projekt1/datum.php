@@ -47,7 +47,7 @@
         <h3>Detta skript räknar ut hur långt det är till ett givet datum.</h3>
 
         <p>Ge ett datum<br/>
-
+        <p>derp</p>
         <form action="datum.php" method="get">
             dag: <input type="text" name="dd" size="6">.
             månad: <input type="text" name="mm" size="6">.
