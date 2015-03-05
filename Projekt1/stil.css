@@ -1,225 +1,254 @@
 ﻿/* Notera: Bygg HTML 5 elementen som block för att få det och fungera i äldre browsers */
-header, nav, article, section, aside, footer { display:block; }
-
-@font-face
-{
-				font-family: minArc;
-				src: url(fonts/ArchitectsDaughter.ttf);
+header, nav, article, section, aside, footer {
+    display: block;
 }
-.arc
-{				
-				font-family	: "minArc";	
-				text-shadow: 4px 4px #c0c0c0;
-}					
-.grad
-{
-				background: -webkit-radial-gradient(lightblue, blue); /* For Safari */
-				background: -o-radial-gradient(lightblue, blue); /* For Opera 11.1 to 12.0 */
-				background: -moz-radial-gradient(lightblue, blue); /* For Firefox 3.6 to 15 */
-				background: radial-gradient(lightblue, blue); /* Standard syntax */
+
+@font-face {
+    font-family: minArc;
+    src: url(fonts/ArchitectsDaughter.ttf);
+}
+
+.arc {
+    font-family: "minArc";
+    text-shadow: 4px 4px #c0c0c0;
+}
+
+.grad {
+    background: -webkit-radial-gradient(lightblue, blue); /* For Safari */
+    background: -o-radial-gradient(lightblue, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient(lightblue, blue); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(lightblue, blue); /* Standard syntax */
 }
 
 body {
-				font-family:  "Bauhaus 93", Arial, Helvetica, sans-serif; 
-				background-color: #CCCCCC;				    
+    font-family: "Bauhaus 93", Arial, Helvetica, sans-serif;
+    background-color: #CCCCCC;
 }
+
 #sidan {
-				width:800px;
-				margin:auto;
-				border:1px solid Grey;
-				border-radius:20px 20px 20px 20px;
+    width: 800px;
+    margin: auto;
+    border: 1px solid Grey;
+    border-radius: 20px 20px 20px 20px;
 }
+
 header {
-				background-color:#6A80AD;
-				height:100px;
-				text-align:center;
-				padding:5px;
-				margin:0px;	
-				border-radius:20px 20px 0px 0px;		
+    background-color: #6A80AD;
+    height: 100px;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    border-radius: 20px 20px 0px 0px;
 }
-header table {	width:100%;
-	
+
+header table {
+    width: 100%;
+
 }
-header table	{
-				border:0px;
+
+header table {
+    border: 0px;
 }
-header table td	{
-				border:0px;
+
+header table td {
+    border: 0px;
 }
 
 nav {
-				height:28px;
-				background-color:#BCEFFE;	
-				border:1px solid Grey ;
-						
+    height: 28px;
+    background-color: #BCEFFE;
+    border: 1px solid Grey;
+
 }
+
 nav ul {
-				background-color:#BCEFFE;
-				list-style-type:none;
-				padding:4px;
-				margin:0px;
-				margin-left:40px;
+    background-color: #BCEFFE;
+    list-style-type: none;
+    padding: 4px;
+    margin: 0px;
+    margin-left: 40px;
 }
+
 nav ul li {
-				float:left;
-				padding-left:10px;
-				padding-right:10px;
-				border:2px solid Grey ;
-				margin-left:1px;
-				border-radius:12px 12px 0px 0px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid Grey;
+    margin-left: 1px;
+    border-radius: 12px 12px 0px 0px;
 }
+
 nav ul li:hover {
-				background-color:#7DADC6;
+    background-color: #7DADC6;
 }
-nav ul li a {	color: #6D9DB6;
-				text-decoration:none;
-				font-weight:bold;
+
+nav ul li a {
+    color: #6D9DB6;
+    text-decoration: none;
+    font-weight: bold;
 }
+
 nav ul li a:hover {
-				color: #364560;
-				background-color:#7DADC6;
+    color: #364560;
+    background-color: #7DADC6;
 
 }
 
 #innehall {
-				height: 400px;
-				background-color:#616161;
-				border:1px solid Grey ;
+    height: 400px;
+    background-color: #616161;
+    border: 1px solid Grey;
 }
+
 article {
-				float: left;
-				width:600px;
-				padding:20px;
-				background-color:#616161;
+    float: left;
+    width: 600px;
+    padding: 20px;
+    background-color: #616161;
 
-			
 }
+
 section {
-				width:400px;
-				padding-left: 5px;
-				background-color:#9E9E9E ;
-				border-radius:12px 12px 12px 12px;
+    width: 400px;
+    padding-left: 5px;
+    background-color: #9E9E9E;
+    border-radius: 12px 12px 12px 12px;
 
 }
+
 aside {
-				padding-top:40px;
-				background-color:#616161;
-				float:right;
-				width:20px;
-}
-footer {
-				clear:both;
-				background-color:#8DBDD6;
-				height:30px;
-				text-align:center;
-				padding:20px;
-				margin:0px;
-				border-radius:0px 0px 20px 20px;
-}
-footer table	{
-				width:100%;
-}
-footer table	{
-				border:0px;
-}
-footer table td	{
-				border:0px;
+    padding-top: 40px;
+    background-color: #616161;
+    float: right;
+    width: 20px;
 }
 
+footer {
+    clear: both;
+    background-color: #8DBDD6;
+    height: 30px;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+footer table {
+    width: 100%;
+}
+
+footer table {
+    border: 0px;
+}
+
+footer table td {
+    border: 0px;
+}
 
 h1 {
-				margin:0px;
-				padding:0px;
+    margin: 0px;
+    padding: 0px;
 }
+
 img {
-				margin: 4px;
-				border: 2px black groove;
-				padding: 3px;
+    margin: 4px;
+    border: 2px black groove;
+    padding: 3px;
 }
+
 img.logo {
-				margin: 0px;
-				border: 0px;
-				padding: 0px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
 }
 
 p {
-				margin:5px;
-				padding:5px;
+    margin: 5px;
+    padding: 5px;
 }
+
 h2 {
-				margin: 2px;
-				padding: 0px;
-				font-family: Arial, Helvetica, sans-serif;
-				font-size: medium;
-				font-weight: bold;
-				color: #000080;
-				}
+    margin: 2px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: #000080;
+}
+
 h3 {
-				margin: 4px;
-				padding: 0px;
+    margin: 4px;
+    padding: 0px;
 }
+
 h4 {
-				margin: 2px;
-				padding: 0px;
+    margin: 2px;
+    padding: 0px;
 }
-table {			border: black solid thick;
-				margin: 10px;
+
+table {
+    border: black solid thick;
+    margin: 10px;
 
 }
-td	{
-				border: medium solid #333333;
+
+td {
+    border: medium solid #333333;
 }
+
 /* Enkel responsiv design för mindre skärmar */
 
 @media (max-width: 768px) {
 
-#sidan {
-				width: 100%;
-}
-article {
-				width: 90%;
-}
+    #sidan {
+        width: 100%;
+    }
+
+    article {
+        width: 90%;
+    }
 
 }
+
 @media (max-width: 670px) {
-nav  {
-	
-				height:56px;
+    nav {
+
+        height: 56px;
+    }
+
 }
 
+@media (max-width: 480px) {
 
-}
-@media (max-width: 480px)  {
+    body {
+        font-size: 12pt;
+    }
 
-body  {
-				font-size: 12pt;
-}
+    section {
+        width: 90%;
+    }
 
-section {
-				width: 90%;
-}
+    img {
+        width: 100%;
+    }
 
-img  {				
-				width: 100%;
-}
-
-iframe  {
-				width: 100%;
-}
+    iframe {
+        width: 100%;
+    }
 }
 
-@media (max-width: 320px)  {
+@media (max-width: 320px) {
 
-body  {
-				font-size: 10pt;
-}
+    body {
+        font-size: 10pt;
+    }
 }
 
-@media (max-width: 240px)  {
+@media (max-width: 240px) {
 
-body  {
-				font-size: 8pt;
-				border:4px;
-}
+    body {
+        font-size: 8pt;
+        border: 4px;
+    }
 }
 
