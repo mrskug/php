@@ -45,13 +45,14 @@ document.createElement("aside");
 <h3>Systemareorna</h3>
 <section>
 	<?php
+	$version = phpversion();
 	print("<p>Detta läses från $_SERVER-arean</p>");
 	print("<p>Ägaren är: ".$_SERVER["SSL_SERVER_S_DN_O"]."<br/>");
 	print("<p>remote user: ".$_SERVER["REMOTE_USER"]."<br/>");
 	print("<p>remote ip: ".$_SERVER["REMOTE_ADDR"]."<br/>");
 	print("<p>server ip: ".$_SERVER["SERVER_ADDR"]."<br/>");
 	print("<p>server software: ".$_SERVER["SERVER_SOFTWARE"]."<br/>");
-	print("<p>php version: " phpversion() "<br/>");
+	print("<p>php version: ".$version."<br/>");
 	?>
 <section>
 </section>
