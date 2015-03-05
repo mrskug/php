@@ -65,7 +65,7 @@
         $skillnad = $nu - $nytid;
         $t=time();
         echo($t . "<br>");
-        echo(date("Y-m-d HH:MM:SS",$t));
+        echo(date("Y-m-d h:i:s",$t));
         print("<p>Skillnaden är " . $skillnad . " sekunder<br/>");
         print("Skillnaden i dygn är " . abs(floor($skillnad / (3600 * 24))) . " ");
         if ($skillnad < 0) {
