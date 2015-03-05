@@ -1,4 +1,4 @@
-cd <!DOCTYPE html >
+<!DOCTYPE html >
 <html>
 
 <head>
@@ -55,7 +55,7 @@ document.createElement("aside");
 <aside>
 </aside>
 </div>
-<footer><table><tr><td>&copy;Copyright,2014</td><td>Webmaster: johnny.bistrom(at)arcada.fi</td><td>7.1.2014</td></tr></table></footer>
+<footer><table><tr><td>&copy;Copyright,2015</td><td>Webmaster: christoffer.holmberg(at)arcada.fi</td><td>5.3.2015</td></tr></table></footer>
 </div>
 </body>
 

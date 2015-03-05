@@ -44,7 +44,10 @@ document.createElement("aside");
 <article>
 <h3>Systemareorna</h3>
 <section>
-<p>Detta skrivs ut av php med echo().<br/>Detta skrev vi med print(). Felloggen finns på <br/><a href='http://cgi.arcada.fi/cgi-bin/tail.cgi'>cgi.arcada.fi/cgi-bin/tail.cgi</a><br/>Phpinfo finns på <br/><a href='http://cgi.arcada.fi/~johnny/php2014/phpinfo.php'>cgi.arcada.fi/~johnny/php2014/phpinfo.php</a></p><p>Servern innehas av: Stiftelsen Arcada <br/>Administratorn är: root@arcada.fi </p></section>
+	<?php
+	print("<p>Detta läses från $_SERVER-arean</p>");
+	print("<p>Ägaren är: ".$_SERVER["SSL_SERVER_S_DN_O"]."<br/>");
+	?>
 <section>
 </section>
 <section>
