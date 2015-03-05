@@ -56,7 +56,20 @@
         <input type="submit" value="räkna">
         </form>
         <?php
-
+        print("Du gav datumet " . $_REQUEST['dd'] . "." . $_REQUEST['mm'] . "." . $_REQUEST['aaaa'] . "</p>");
+        $nu = time();
+        $dag = $_REQUEST['dd'];
+        $man = $_REQUEST['mm'];
+        $ar = $_REQUEST['aaaa'];
+        $nytid = mktime(12, 0, 0, $man, $dag, $ar);
+        $skillnad = $nu - $nytid;
+        print("<p>Skillnaden är " . $skillnad . " sekunder<br/>");
+        print("Skillnaden i dygn är " . abs(floor($skillnad / (3600 * 24))) . " ");
+        if ($skillnad < 0) {
+            print("i framtiden.</p>");
+        } else {
+            print("i det förflutna.</p>");
+        }
         ?>
         </section>
         <section>
