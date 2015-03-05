@@ -48,7 +48,7 @@
 
         <p>Ge ett datum<br/>
 
-        <form action="datum2.php" method="get">
+        <form action="datum.php" method="get">
             dag: <input type="text" name="dd" size="6">.
             månad: <input type="text" name="mm" size="6">.
             år: <input type="text" name="aaaa" size="6">
