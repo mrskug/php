@@ -49,6 +49,8 @@ document.createElement("aside");
 	print("<p>Ägaren är: ".$_SERVER["SSL_SERVER_S_DN_O"]."<br/>");
 	print("<p>remote user: ".$_SERVER["REMOTE_USER"]."<br/>");
 	print("<p>remote ip: ".$_SERVER["REMOTE_ADDR"]."<br/>");
+	print("<p>server ip: ".$_SERVER["SERVER_ADDR"]."<br/>");
+	print("<p>server software: ".$_SERVER["SERVER_SOFTWARE"]."<br/>");
 	?>
 <section>
 </section>
