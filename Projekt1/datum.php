@@ -47,7 +47,7 @@
         <h3>Detta skript räknar ut hur långt det är till ett givet datum.</h3>
 
         <p>Ge ett datum<br/>
-        <p>derp</p>
+
         <form action="datum.php" method="get">
             dag: <input type="text" name="dd" size="6">.
             månad: <input type="text" name="mm" size="6">.
@@ -63,6 +63,9 @@
         $ar = $_REQUEST['aaaa'];
         $nytid = mktime(12, 0, 0, $man, $dag, $ar);
         $skillnad = $nu - $nytid;
+        $t=time();
+        echo($t . "<br>");
+        echo(date("Y-m-d",$t));
         print("<p>Skillnaden är " . $skillnad . " sekunder<br/>");
         print("Skillnaden i dygn är " . abs(floor($skillnad / (3600 * 24))) . " ");
         if ($skillnad < 0) {
